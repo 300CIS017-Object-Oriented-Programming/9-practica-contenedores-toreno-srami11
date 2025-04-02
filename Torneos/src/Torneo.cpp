@@ -53,9 +53,6 @@ void Torneo::inicializarDatos() {
     v3->setNombre("Minecraft");
     v3->setGenero("Sandbox");
     v3->setDificultad(2);
-
-    j1->mostrarJugador();
-
  }
 
 void Torneo::registrarVideojuego(int codigo, string nombre, string genero, int dificultad){
@@ -88,7 +85,7 @@ void Torneo::inscribirJugadorEnVideojuego() {
     string nombreJugador, nombreVideojuego;
     cout << "Ingrese el nombre del jugador: ";
     cin >> nombreJugador;
-    cout << "Ingrese el código del videojuego: ";
+    cout << "Ingrese el nombre del videojuego: ";
     cin >> nombreVideojuego;
 
     Jugador* jugador = buscarJugador(nombreJugador);
