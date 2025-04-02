@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Torneo.h"
+#include "src/Torneo.h"
 #include <string>
 
 using namespace std;
